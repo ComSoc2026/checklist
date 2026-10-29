@@ -1,0 +1,661 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Roteiro Manobra Escolar 2026</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: caderno de campo — cabeçalho fixo com abas, conteúdo em coluna única de ~960px, IDs em fonte mono como num livro de registro rádio */
+:root{
+  --bg:#EDEFE8; --surface:#F8F9F5; --line:#CDD2C2; --fg:#1C2219; --muted:#5D6655;
+  --olive:#4A5A27; --olive-soft:#DDE3CC; --amber:#A86F00; --amber-soft:#F3E3BC;
+  --c-prep:#7A6A3A; --c-ops:#4A5A27; --c-apoio:#2F6B6B; --c-acao:#9A4A1E; --c-final:#5B4A7A;
+  --display:"Barlow Condensed","Arial Narrow",sans-serif;
+  --body:"IBM Plex Sans",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#13170F; --surface:#1B2016; --line:#323A2A; --fg:#E2E6D8; --muted:#9AA38D;
+  --olive:#A9BC74; --olive-soft:#28311C; --amber:#E7AE3A; --amber-soft:#3A2F14;
+  --c-prep:#C7B279; --c-ops:#A9BC74; --c-apoio:#6FB9B5; --c-acao:#E08A55; --c-final:#B09CD8;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#13170F; --surface:#1B2016; --line:#323A2A; --fg:#E2E6D8; --muted:#9AA38D;
+  --olive:#A9BC74; --olive-soft:#28311C; --amber:#E7AE3A; --amber-soft:#3A2F14;
+  --c-prep:#C7B279; --c-ops:#A9BC74; --c-apoio:#6FB9B5; --c-acao:#E08A55; --c-final:#B09CD8;
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.wrap{max-width:980px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+.brand{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;padding-block:14px 6px}
+.brand h1{font-family:var(--display);font-weight:700;font-size:1.9rem;letter-spacing:.02em;margin:0;text-transform:uppercase;line-height:1}
+.brand h1 span{color:var(--amber)}
+.brand .sub{font-family:var(--mono);font-size:.78rem;color:var(--muted)}
+.sync{margin-left:auto;font-family:var(--mono);font-size:.72rem;color:var(--muted);display:flex;align-items:center;gap:6px}
+.sync i{width:8px;height:8px;border-radius:50%;background:var(--muted);display:inline-block}
+.sync.on i{background:var(--olive)}
+nav.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+nav.tabs a{font-family:var(--display);font-weight:600;font-size:1.02rem;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;color:var(--muted);padding:8px 12px 9px;border-bottom:3px solid transparent;white-space:nowrap}
+nav.tabs a[aria-current="true"]{color:var(--fg);border-bottom-color:var(--amber)}
+nav.tabs a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+main{padding-block:22px 60px}
+h2{font-family:var(--display);font-weight:700;font-size:1.6rem;text-transform:uppercase;letter-spacing:.03em;margin:0 0 4px;text-wrap:balance}
+h3{font-family:var(--display);font-weight:600;font-size:1.25rem;letter-spacing:.03em;margin:0;text-wrap:balance}
+p{margin:0}
+.lead{color:var(--muted);max-width:68ch;margin-bottom:18px}
+.mono{font-family:var(--mono)}
+.stack{display:flex;flex-direction:column;gap:14px}
+
+/* timeline */
+.timeline{margin:6px 0 8px;overflow-x:auto}
+.tl-bar{display:flex;min-width:640px;height:46px;border:1px solid var(--line);background:var(--surface)}
+.tl-seg{position:relative;border-right:1px solid var(--bg);display:flex;align-items:flex-end;padding:3px 4px;font-family:var(--mono);font-size:.66rem;color:var(--bg);overflow:hidden;text-decoration:none}
+.tl-seg b{position:absolute;top:3px;left:4px;font-family:var(--display);font-size:.9rem;color:var(--bg)}
+.tl-scale{display:flex;justify-content:space-between;min-width:640px;font-family:var(--mono);font-size:.68rem;color:var(--muted);padding-top:3px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.8rem;color:var(--muted);margin-bottom:22px}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;margin-right:6px;vertical-align:-1px;background:var(--k)}
+
+/* chapter cards */
+.chap{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--k);padding:16px 18px;display:grid;gap:12px}
+.chap-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}
+.chap-time{font-family:var(--mono);font-size:.8rem;color:var(--muted)}
+.label-preview{display:inline-flex;align-items:center;gap:8px;background:#11140E;color:#F2F0E6;font-family:var(--display);font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:.9rem;padding:3px 10px 3px 8px;border-left:3px solid var(--amber)}
+.label-preview em{font-style:normal;color:var(--amber)}
+.chap p.obj{max-width:72ch}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px 22px}
+.kv{font-size:.88rem;min-width:0}
+.kv dt{font-family:var(--display);font-weight:600;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.kv dd{margin:2px 0 0}
+.seq{margin:0;padding-left:20px;font-size:.92rem;display:grid;gap:4px}
+.seq li::marker{font-family:var(--mono);color:var(--muted);font-size:.8rem}
+.tag{font-family:var(--mono);font-size:.72rem;padding:1px 6px;border:1px solid var(--line);white-space:nowrap}
+.who{font-family:var(--mono);font-size:.72rem;font-weight:500;padding:1px 6px;color:var(--bg);background:var(--p);white-space:nowrap}
+.p-TIA{--p:#3F6E9E}.p-ROH{--p:#8A5A1E}.p-BEC{--p:#3E7A45}.p-FOG{--p:#7B4A86}.p-EDT{--p:#5D6655}
+.note{font-size:.85rem;color:var(--muted);border-left:2px solid var(--line);padding-left:10px}
+
+/* checklists */
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+.chip{font-family:var(--body);font-size:.85rem;border:1px solid var(--line);background:var(--surface);color:var(--fg);padding:5px 11px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.toggle{display:flex;align-items:center;gap:6px;font-size:.85rem;color:var(--muted);margin-left:auto;cursor:pointer}
+.progress{display:flex;align-items:center;gap:10px;margin-bottom:16px;font-family:var(--mono);font-size:.8rem;color:var(--muted)}
+.progress .bar{flex:1;height:8px;background:var(--line)}
+.progress .bar i{display:block;height:100%;background:var(--olive);width:0;transition:width .3s}
+.group{margin-bottom:20px}
+.group-h{display:flex;align-items:center;gap:10px;padding:6px 0;border-bottom:2px solid var(--k);margin-bottom:4px}
+.group-h h3{font-size:1.1rem}
+.group-h .cnt{margin-left:auto;font-family:var(--mono);font-size:.75rem;color:var(--muted)}
+.item{display:grid;grid-template-columns:22px 1fr;gap:10px;padding:9px 4px;border-bottom:1px solid var(--line);align-items:start}
+.item input{width:18px;height:18px;margin:3px 0 0;accent-color:var(--olive);cursor:pointer}
+.item .body{min-width:0;display:grid;gap:3px}
+.item .row1{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px}
+.item .id{font-family:var(--mono);font-size:.78rem;color:var(--amber);font-weight:500}
+.item .what{font-weight:500}
+.item .how{font-size:.85rem;color:var(--muted)}
+.item.done .what,.item.done .how{text-decoration:line-through;text-decoration-color:var(--muted);opacity:.6}
+label.item{cursor:pointer}
+
+/* tables */
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:620px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--display);font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:.8rem;color:var(--muted);background:var(--bg)}
+td:first-child{white-space:nowrap}
+.section{margin-bottom:30px}
+.section > h3{margin-bottom:8px}
+ul.plain{margin:0;padding-left:18px;display:grid;gap:5px;font-size:.92rem}
+.swatch{display:inline-block;width:28px;height:4px;vertical-align:middle;margin-right:6px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px}
+.card{background:var(--surface);border:1px solid var(--line);padding:12px 14px;display:grid;gap:4px;font-size:.88rem;align-content:start}
+.card h4{margin:0;font-family:var(--display);font-size:1.15rem;letter-spacing:.03em}
+.om-form{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 12px}
+.om-form input{flex:1;min-width:180px;font:inherit;padding:7px 10px;border:1px solid var(--line);background:var(--surface);color:var(--fg)}
+.btn{font:inherit;font-weight:500;padding:7px 14px;border:1px solid var(--fg);background:var(--fg);color:var(--bg);cursor:pointer}
+.om-list{display:flex;flex-wrap:wrap;gap:6px}
+.om-pill{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);padding:3px 4px 3px 10px;font-size:.88rem}
+.om-pill button{font:inherit;font-size:.75rem;border:0;background:transparent;color:var(--muted);cursor:pointer;padding:2px 6px}
+.om-pill button.arm{color:var(--c-acao);font-weight:600}
+.empty{font-size:.85rem;color:var(--muted)}
+@media (max-width:560px){.brand h1{font-size:1.5rem}.sync{margin-left:0;width:100%}.toggle{margin-left:0}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>Manobra Escolar <span>2026</span></h1>
+      <span class="sub">Roteiro de vídeo · Comunicações · alvo 9min30s</span>
+      <span class="sync" id="sync"><i></i><span id="syncTxt">Carregando…</span></span>
+    </div>
+    <nav class="tabs" id="tabs">
+      <a href="#roteiro" data-tab="roteiro">Roteiro</a>
+      <a href="#gravacao" data-tab="gravacao">Gravação</a>
+      <a href="#edicao" data-tab="edicao">Edição</a>
+      <a href="#trilha" data-tab="trilha">Trilha e transições</a>
+      <a href="#mapas" data-tab="mapas">Earth e cartas</a>
+      <a href="#equipe" data-tab="equipe">Equipe e ajustes</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="v-roteiro" data-view>
+    <h2>Roteiro por capítulos</h2>
+    <p class="lead">Cada capítulo tem o rótulo que fica no canto inferior esquerdo enquanto ele passa, a sequência de planos, a música e as transições. Os códigos G (gravação) e E (edição/Earth) batem com as abas de checklist.</p>
+    <div class="timeline"><div class="tl-bar" id="tlBar"></div><div class="tl-scale" id="tlScale"></div></div>
+    <div class="legend">
+      <span style="--k:var(--c-prep)">Preparação</span>
+      <span style="--k:var(--c-ops)">Pel Com / Pel C²</span>
+      <span style="--k:var(--c-apoio)">Apoios</span>
+      <span style="--k:var(--c-acao)">PCT nas ações</span>
+      <span style="--k:var(--c-final)">OMs e encerramento</span>
+    </div>
+    <div class="stack" id="chapters"></div>
+  </section>
+
+  <section id="v-gravacao" data-view hidden>
+    <h2>Checklist de gravação</h2>
+    <p class="lead">Marque cada plano assim que estiver gravado e conferido. As marcações são compartilhadas: quem abrir este link vê o mesmo progresso. Rohweder e Beckmann concentram as partes iniciais.</p>
+    <div class="toolbar" id="whoFilter"></div>
+    <div class="progress"><span id="gProgTxt">0/0</span><div class="bar"><i id="gProgBar"></i></div></div>
+    <div id="shotList"></div>
+  </section>
+
+  <section id="v-edicao" data-view hidden>
+    <h2>Checklist de edição</h2>
+    <p class="lead">Primeiro os itens gerais do projeto, depois cada capítulo na ordem do vídeo. Um capítulo está pronto quando todos os itens dele estiverem marcados.</p>
+    <div class="toolbar"><label class="toggle"><input type="checkbox" id="hideDoneEd"> Ocultar concluídos</label></div>
+    <div class="progress"><span id="eProgTxt">0/0</span><div class="bar"><i id="eProgBar"></i></div></div>
+    <div id="editList"></div>
+  </section>
+
+  <section id="v-trilha" data-view hidden>
+    <h2>Trilha e transições</h2>
+    <p class="lead">Use 4 ou 5 músicas no total, uma por bloco, para o vídeo não virar colcha de retalhos. Corte no tempo forte da bateria e deixe a música baixar quando entrar áudio real de rádio.</p>
+    <div class="section">
+      <h3>Músicas por bloco</h3>
+      <div class="tbl-wrap"><table>
+        <thead><tr><th>Bloco</th><th>Sugestão principal</th><th>Alternativa</th><th>Por quê</th></tr></thead>
+        <tbody id="musicRows"></tbody>
+      </table></div>
+      <p class="note" style="margin-top:10px">Direitos autorais: músicas comerciais servem para exibição interna (formatura, auditório, encerramento). Se o vídeo for para YouTube ou Instagram, o áudio pode ser silenciado ou bloqueado. Nesse caso troque pelas opções livres: YouTube Audio Library (filtro “Rock” + “Dramático”), Pixabay Music (buscar “epic rock”, “military rock”, “action rock”) ou uma assinatura como Epidemic Sound/Artlist.</p>
+    </div>
+    <div class="section">
+      <h3>Transições</h3>
+      <div class="cards" id="transCards"></div>
+    </div>
+    <div class="section">
+      <h3>Efeitos sonoros que valem ouro</h3>
+      <ul class="plain">
+        <li>Chiado/estática de rádio e o “clique” do PTT: base da transição-assinatura entre capítulos.</li>
+        <li>Fonia real gravada nos postos (“Posto Rádio, aqui Apoio Cavalaria, QSL?”) para usar como L-cut. Grave só o áudio, com o celular perto do alto-falante do rádio.</li>
+        <li>Bipes de Morse ou de teclado sob o Earth e sob os letreiros.</li>
+        <li>Porta de viatura batendo e motor partindo na saída do comboio.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="v-mapas" data-view hidden>
+    <h2>Google Earth e cartas topográficas</h2>
+    <p class="lead">O Earth faz a ligação entre os lugares: afasta de um ponto, desloca e aproxima do próximo. As linhas de enlace são desenhadas por cima, no editor, sempre com a mesma legenda de cores.</p>
+    <div class="section">
+      <h3>Legenda dos enlaces (use em todo o vídeo)</h3>
+      <div class="tbl-wrap"><table>
+        <thead><tr><th>Meio</th><th>Traço</th><th>Onde aparece</th></tr></thead>
+        <tbody>
+          <tr><td><span class="swatch" style="background:#F2B705"></span>Rádio (VHF/HF)</td><td>Amarelo, com “ondas” pulsando a partir da origem</td><td>Posto Rádio ↔ apoios, PCT ↔ Posto Rádio</td></tr>
+          <tr><td><span class="swatch" style="background:#22B8CF"></span>Rede de dados / rádio enlace</td><td>Ciano contínuo com pontos “viajando” na linha</td><td>CCom ↔ COp, COp ↔ apoios com computador</td></tr>
+          <tr><td><span class="swatch" style="background:#4CAF50"></span>Fio / cabo / telefone de campanha</td><td>Verde tracejado</td><td>Dentro da área do COp e ligações locais</td></tr>
+          <tr><td><span class="swatch" style="background:#E8590C"></span>Satélite (só se for usado)</td><td>Laranja em arco, subindo e descendo</td><td>COp ↔ escalão superior</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div class="section">
+      <h3>Passo a passo no Google Earth Pro (desktop, gratuito)</h3>
+      <ol class="seq">
+        <li>Crie a pasta <span class="mono">Manobra Escolar 2026</span> em “Meus lugares” e marque um alfinete para cada estrutura: Posto Rádio, COp/CCom, Apoio Inf, Apoio Cav, Apoio Eng, Apoio Art, Apoio BLB, ponto de partida do comboio e área do PCT.</li>
+        <li>Troque o ícone de cada alfinete por um símbolo militar em PNG (fundo transparente) e dê nomes curtos, que aparecem no vídeo.</li>
+        <li>Em Ferramentas › Opções › Navegação, deixe a velocidade de voo mais lenta (perto de 0,3) para a aproximação ficar cinematográfica. Desligue a barra lateral e a régua para a tela ficar limpa.</li>
+        <li>Grave a tela com OBS Studio em 1080p 30 fps. Deixe a visão parada em um alfinete por 2 s e dê duplo clique no próximo: o Earth faz sozinho o afastar → deslocar → aproximar.</li>
+        <li>Grave um voo por apoio (Posto Rádio → Apoio X) e um voo geral (Brasil → região → área da manobra). Grave cada um duas vezes para ter opção.</li>
+        <li>Para animações mais finas, o Google Earth Studio (web, gratuito, conta Google) permite keyframes de câmera e exporta em sequência de imagens.</li>
+        <li>Se a última imagem do Earth for de cima (vertical), ela casa com o plano do drone com câmera a −90° no mesmo local: um fade de 12 frames faz a “entrada” no mundo real.</li>
+      </ol>
+    </div>
+    <div class="section">
+      <h3>Carta topográfica</h3>
+      <ul class="plain">
+        <li>Fotografe a carta de cima, com luz uniforme e sem reflexo (S24 Ultra ou iPhone, modo foto em resolução máxima), ou escaneie. Se houver acetato/calco da manobra, fotografe com e sem ele.</li>
+        <li>No editor, faça um movimento lento de zoom (efeito Ken Burns) até a região do Posto Rádio e desenhe os enlaces com a mesma legenda de cores.</li>
+        <li>Transição carta ↔ Earth: alinhe um ponto marcante (curva de rio, cruzamento) nas duas imagens e use um fade cruzado de 1 s.</li>
+        <li>Mostrar as curvas de nível no morro do Posto Rádio ajuda a explicar por que ele foi escolhido (altura = alcance rádio).</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h3>Ordem dos voos que você precisa gravar</h3>
+      <div class="tbl-wrap"><table>
+        <thead><tr><th>Código</th><th>Voo no Earth</th><th>Capítulo</th></tr></thead>
+        <tbody id="earthRows"></tbody>
+      </table></div>
+    </div>
+  </section>
+
+  <section id="v-equipe" data-view hidden>
+    <h2>Equipe, aparelhos e ajustes</h2>
+    <p class="lead">Ajuste os aparelhos antes do primeiro dia e grave tudo na horizontal. Assim, imagens de celulares diferentes se encaixam na mesma linha do tempo.</p>
+    <div class="section"><div class="cards" id="teamCards"></div></div>
+    <div class="section">
+      <h3>OMs que apoiam as Comunicações</h3>
+      <p class="note">Cadastre as OMs aqui. Cada uma gera, automaticamente, um item de gravação (distintivo no braço) e um item de edição (letreiro com nome e símbolo) no capítulo 12.</p>
+      <form class="om-form" id="omForm">
+        <input id="omName" type="text" placeholder="Nome da OM (ex.: 3º B Com)" maxlength="80" autocomplete="off" aria-label="Nome da OM">
+        <button class="btn" type="submit">Adicionar OM</button>
+      </form>
+      <div class="om-list" id="omList"></div>
+    </div>
+    <div class="section">
+      <h3>Padrão de nome dos arquivos</h3>
+      <p>Renomeie no fim de cada dia: <span class="mono">C04_G20_BEC_01.mp4</span> (capítulo, plano, quem gravou, take). Crie uma pasta por capítulo no computador de edição e jogue tudo numa pasta compartilhada (Google Drive) no mesmo dia.</p>
+    </div>
+    <div class="section">
+      <h3>Segurança e cuidados</h3>
+      <ul class="plain">
+        <li>Voo de drone só com autorização do comando da manobra e do responsável pelo espaço aéreo local. Não sobrevoe a tropa a baixa altura nem viaturas em movimento.</li>
+        <li>OPSEC: não filme telas com frequências, chaves criptográficas, senhas, indicativos ou tabelas de IEComElt. Se aparecer, desfoque na edição. Mostre o vídeo ao oficial responsável antes de publicar.</li>
+        <li>DJI Neo: cerca de 18 min por bateria e sensível a vento. Leve todas as baterias carregadas e o hub de carga. Nos dias de apoios, organize a rota para fazer as chegadas de drone em sequência.</li>
+        <li>Na mata, o GPS e o rastreamento do Neo pioram: decole de clareiras e faça os planos de revelação subindo na vertical.</li>
+        <li>Leve power bank para os celulares e libere espaço de memória antes (4K ocupa cerca de 400 MB por minuto).</li>
+        <li>Grave cada plano por 15 a 30 s, segurando 3 s parado antes e depois do movimento. Isso facilita os cortes no ritmo da música.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<script>
+const PEOPLE={
+  TIA:{name:"Tiago",dev:"DJI Neo + Galaxy S24 Ultra"},
+  ROH:{name:"Rohweder",dev:"Galaxy A14"},
+  BEC:{name:"Beckmann",dev:"Poco X4 Pro 5G"},
+  FOG:{name:"Fogazzi",dev:"iPhone 17 Pro"},
+  EDT:{name:"Edição",dev:"Computador"}
+};
+
+const CH=[
+ {id:"c00",n:"00",label:null,title:"Abertura",start:0,dur:30,k:"--c-final",
+  obj:"Chamar atenção nos primeiros segundos: amanhecer, detalhes de rádio em câmera lenta e o título da manobra entrando no tempo da música.",
+  seq:["Tela preta + chiado de rádio + fonia: “Todas as estações, aqui Posto Rádio… início da manobra.” (G22)","Drone revelando a área ao amanhecer (G01)","3 a 4 detalhes em câmera lenta: antena rosqueando, canal girando, LED acendendo (G02)","Silhueta do operador com monofone contra o céu (G03)","Título central “MANOBRA ESCOLAR 2026 · COMUNICAÇÕES” no golpe de bateria"],
+  text:"MANOBRA ESCOLAR 2026 / COMUNICAÇÕES",music:"Thunderstruck (intro de guitarra até a bateria entrar)",tin:"Fade do preto com estática",tout:"Flash branco curto no tempo forte"},
+ {id:"c01",n:"01",label:"Preparação",start:30,dur:75,k:"--c-prep",
+  obj:"Mostrar que a manobra começa no quartel: cautelas, configuração, embarque e saída do comboio. Ritmo de montagem, cortes curtos.",
+  seq:["Cautela na subtenência: plano aberto do balcão, detalhe da assinatura (G04, G05)","Cautela do material rádio: bancada com rádios alinhados, conferência (G06)","Configuração: rádio ligado ao notebook, teste “QSL” (G07)","Embarque: caixas passando de mão em mão, vista de dentro da carroceria (G08)","Montagem do comboio: viaturas alinhadas, orientação ao motorista (G09)","Saída do comboio: drone + cabine + viatura passando rente à câmera (G10, G11, G12)"],
+  text:"Letreiros curtos: “Cautela” · “Configuração” · “Embarque” · “Comboio”",music:"Back in Black",tin:"Estática de rádio",tout:"Máscara com a viatura passando rente à câmera (G12)"},
+ {id:"c02",n:"02",label:"Aprestamento",start:105,dur:35,k:"--c-prep",
+  obj:"Material conferido e pronto para emprego na área de reunião: baterias, antenas, testes de comunicação.",
+  seq:["Conferência com lista de verificação, carregadores e cabos organizados (G14)","Montagem de mastro e teste rádio entre turmas (G13)","Detalhes em câmera lenta: bateria encaixando, conector, LED verde (G15)"],
+  text:"“Material pronto para emprego”",music:"Back in Black (continua) ou corte para Seven Nation Army",tin:"Corte seco no tempo (continuação do embalo)",tout:"Estática de rádio"},
+ {id:"c03",n:"03",label:"Área de Operações",start:140,dur:25,k:"--c-ops",
+  obj:"Situar o espectador: onde fica cada estrutura e como elas se ligam. É o “mapa” que dá sentido ao resto do vídeo.",
+  seq:["Earth: Brasil → região → área da manobra (E01)","Alfinetes de todas as estruturas aparecendo um a um","Carta topográfica com o morro do Posto Rádio em destaque (E02)","Fade da visão vertical do Earth para o drone a −90° sobre o comboio chegando (G16)"],
+  text:"Nomes nos alfinetes: Posto Rádio · COp · Ap Inf · Ap Cav · Ap Eng · Ap Art · Ap BLB",music:"Paint It Black (intro)",tin:"Estática de rádio",tout:"Fade Earth → drone vertical"},
+ {id:"c04",n:"04",label:"Pel Com · Posto Rádio",start:165,dur:65,k:"--c-ops",
+  obj:"O coração das ligações com os apoios: subida do morro, montagem camuflada na mata e operação. Fechar com a teia de enlaces partindo do posto.",
+  seq:["Subida do morro carregando material (G17)","Time-lapse da montagem: camuflagem, antenas, cabos (G18)","Drone subindo na vertical a partir da clareira: o posto some na mata (G19)","Operação: operador no monofone, registro das mensagens (G20, G21)","Earth/carta: linhas amarelas saindo do Posto Rádio para cada apoio e para o COp (E03)"],
+  text:"“Posto Rádio: no alto, na mata, camuflado”",music:"Enter Sandman (parte tensa até o riff)",tin:"Máscara com tronco de árvore (câmera passa atrás de uma árvore)",tout:"L-cut: fonia do Posto Rádio continua sobre o próximo capítulo"},
+ {id:"c05",n:"05",label:"Pel C² · COp e CCom",start:230,dur:65,k:"--c-ops",
+  obj:"Montagem e operação do Centro de Operações (PC da Brigada) e, ao mesmo tempo, o CCom gerando as informações que o COp usa.",
+  seq:["Time-lapse da montagem do COp (G23)","Drone sobre a estrutura pronta (G24)","Travelling lento por dentro do COp pronto (G25)","Tela dividida: à esquerda o CCom (mensagens, rack, operadores), à direita o COp (briefing, carta) (G26, G27)","Plano-sequência da mensagem saindo do CCom e chegando ao COp (G28)","Earth: linha ciano CCom ↔ COp e COp ↔ apoios (E04)"],
+  text:"“CCom → COp: a informação que vira decisão”",music:"Enter Sandman (riff principal)",tin:"L-cut da fonia",tout:"Estática de rádio"},
+ {id:"c06",n:"06",label:"Apoio Infantaria",start:295,dur:25,k:"--c-apoio",
+  obj:"Padrão dos apoios: Earth afasta do Posto Rádio e aproxima do apoio → drone chega à estrutura → 3 a 4 cortes de operação.",
+  seq:["Earth: Posto Rádio → Apoio Inf, linha amarela acompanhando (E05)","Drone: começa alto e longe, avança e desce até a estrutura (G29)","Interior: plano aberto, operador no rádio, computador, fonia “QSL Posto Rádio” (G30)"],
+  text:"Só o rótulo do capítulo",music:"Indestructible",tin:"Estática curta (assinatura dos apoios)",tout:"Fonia do apoio respondendo vira o L-cut do próximo"},
+ {id:"c07",n:"07",label:"Apoio Cavalaria",start:320,dur:25,k:"--c-apoio",
+  obj:"Mesmo padrão do Apoio Inf, com plano de identidade da Cavalaria (viatura, flâmula).",
+  seq:["Earth: Posto Rádio → Apoio Cav (E06)","Drone chegando (G31)","Interior operando (G32)"],
+  text:"Só o rótulo do capítulo",music:"Indestructible",tin:"Estática curta",tout:"L-cut"},
+ {id:"c08",n:"08",label:"Apoio Engenharia",start:345,dur:25,k:"--c-apoio",
+  obj:"Mesmo padrão, com plano de identidade da Engenharia.",
+  seq:["Earth: Posto Rádio → Apoio Eng (E07)","Drone chegando (G33)","Interior operando (G34)"],
+  text:"Só o rótulo do capítulo",music:"Indestructible",tin:"Estática curta",tout:"L-cut"},
+ {id:"c09",n:"09",label:"Apoio Artilharia",start:370,dur:25,k:"--c-apoio",
+  obj:"Mesmo padrão, com plano de identidade da Artilharia.",
+  seq:["Earth: Posto Rádio → Apoio Art (E08)","Drone chegando (G35)","Interior operando (G36)"],
+  text:"Só o rótulo do capítulo",music:"Indestructible",tin:"Estática curta",tout:"L-cut"},
+ {id:"c10",n:"10",label:"Apoio BLB",start:395,dur:25,k:"--c-apoio",
+  obj:"Fecha os apoios com a Base Logística de Brigada. No fim, o Earth afasta e mostra todos os enlaces ao mesmo tempo.",
+  seq:["Earth: Posto Rádio → BLB (E09)","Drone chegando (G37)","Interior operando (G38)","Earth afastando: todos os enlaces acesos ao mesmo tempo (E10)"],
+  text:"Só o rótulo do capítulo",music:"Indestructible (final)",tin:"Estática curta",tout:"Estática longa + silêncio de meio segundo antes da ação"},
+ {id:"c11",n:"11",label:"PCT nas Ações",start:420,dur:50,k:"--c-acao",
+  obj:"O ponto alto de ação: o PCT acompanhando uma ação da Infantaria (e, se der, uma da Cavalaria), mantendo a ligação com o Posto Rádio e o COp.",
+  seq:["Carta/Earth: seta da manobra e o PCT acompanhando; linha PCT ↔ Posto Rádio ↔ COp (E11)","Drone seguindo o deslocamento a distância segura (G39)","Operador do PCT passando informação ao comandante (G40)","Ação da Infantaria com o rádio-operador junto ao comandante (G41)","Opcional: ação da Cavalaria (G42). Use as duas só se as duas ficarem boas"],
+  text:"“PCT: o comando onde a ação acontece”",music:"Ghost Division (Sabaton)",tin:"Corte seco após o silêncio, já no riff",tout:"Speed ramp (acelera e corta) para o capítulo das OMs"},
+ {id:"c12",n:"12",label:"OMs Apoiadoras",start:470,dur:45,k:"--c-final",
+  obj:"Reconhecer as OMs que apoiaram com material: cadetes cautelando nas viaturas delas e as viaturas trazidas.",
+  seq:["Cadetes cautelando material na viatura da OM: entrega do rádio, assinatura (G43)","Viaturas das OMs chegando ou estacionadas, plano baixo com identificação (G44)","Drone passando de lado pela fila de viaturas (G45)"],
+  text:"“Apoio de material:” + nome das OMs em sequência",music:"Victory (Two Steps From Hell) ou Kickstart My Heart",tin:"Speed ramp",tout:"Flash branco no tempo"},
+ {id:"c13",n:"13",label:null,title:"Distintivos das OMs",start:515,dur:40,k:"--c-final",
+  obj:"Um a um, o distintivo de OM no braço de cada militar, em clipes curtos com o nome da OM e o símbolo colorido logo abaixo. O rótulo do canto some aqui, porque cada clipe já tem letreiro próprio.",
+  seq:["Clipe de 3 a 4 s por OM: close no braço, leve aproximação, fundo desfocado (G46)","Letreiro abaixo: nome da OM + símbolo colorido (PNG) entrando com fade e leve subida","Corte a cada compasso da música (flash branco curto entre eles)"],
+  text:"Nome da OM + símbolo (um por clipe)",music:"Victory (continua)",tin:"Flash branco",tout:"Corte para o drone final"},
+ {id:"c14",n:"14",label:null,title:"Encerramento",start:555,dur:15,k:"--c-final",
+  obj:"Foto de grupo e dronie afastando, fechando com o título e os créditos.",
+  seq:["Grupo reunido + dronie afastando até a mata (G47, G48)","Título final e créditos de gravação/edição sobre o drone","Fonia final: “Fim da manobra. Posto Rádio, câmbio, desligo.” + estática + preto"],
+  text:"MANOBRA ESCOLAR 2026 · créditos",music:"Victory (final)",tin:"Corte",tout:"Fade para o preto com estática"}
+];
+
+const SHOTS=[
+ {id:"G01",c:"c00",w:"TIA",d:"DJI Neo",what:"Revelação da área ao amanhecer",how:"QuickShot Rocket ou Dronie, 4K 30 fps. Céu com cor, de preferência a primeira luz do dia."},
+ {id:"G02",c:"c00",w:"FOG",d:"iPhone 17 Pro",what:"Detalhes de rádio em câmera lenta",how:"Câmera lenta 4K 120 fps: antena rosqueando, botão de canal girando, LED acendendo, mão no PTT. 6 a 8 detalhes, também servem de inserts no vídeo todo."},
+ {id:"G03",c:"c00",w:"BEC",d:"Poco X4 Pro",what:"Silhueta do operador com monofone",how:"Câmera baixa, contra o céu claro (contraluz), operador parado olhando ao longe. Toque na tela para travar a exposição no céu."},
+ {id:"G04",c:"c01",w:"ROH",d:"Galaxy A14",what:"Cautela na subtenência: balcão e assinatura",how:"Plano aberto do balcão com a fila + close da caneta assinando a ficha. Local bem iluminado (o A14 sofre com pouca luz)."},
+ {id:"G05",c:"c01",w:"BEC",d:"Poco X4 Pro",what:"Material saindo das prateleiras",how:"Acompanhe andando (travelling) um militar retirando barraca, rede de camuflagem e gerador. Segure o celular com as duas mãos, cotovelos colados."},
+ {id:"G06",c:"c01",w:"ROH",d:"Galaxy A14",what:"Cautela do material rádio",how:"Rádios alinhados na bancada (plano de cima e de lado), conferência dos itens. Evite mostrar números de série e etiquetas legíveis."},
+ {id:"G07",c:"c01",w:"BEC",d:"Poco X4 Pro",what:"Configuração do material",how:"Rádio ligado ao notebook pelo cabo de programação + teste de fonia “QSL”. Enquadre a mão e o rádio, deixe a tela fora de foco."},
+ {id:"G08",c:"c01",w:"ROH",d:"Galaxy A14",what:"Embarque do material",how:"Celular apoiado dentro da carroceria olhando para fora: caixas entrando de mão em mão. Faça também um plano de fora."},
+ {id:"G09",c:"c01",w:"BEC",d:"Poco X4 Pro",what:"Montagem do comboio",how:"Viaturas alinhadas, câmera baixa perto da roda; orientação aos motoristas; plano aberto da coluna."},
+ {id:"G10",c:"c01",w:"TIA",d:"DJI Neo",what:"Saída do comboio vista de cima",how:"Drone parado no alto (ou acompanhando de lado) com a coluna saindo. Grave também uma versão com câmera a −90° (vertical)."},
+ {id:"G11",c:"c01",w:"ROH",d:"Galaxy A14",what:"Comboio de dentro da cabine",how:"Celular preso no painel em hyperlapse ou vídeo normal; para-brisa limpo, viatura da frente no quadro."},
+ {id:"G12",c:"c01",w:"BEC",d:"Poco X4 Pro",what:"Viatura passando rente à câmera",how:"Câmera parada na beira do caminho, viatura passa enchendo o quadro: serve de transição de máscara. Mantenha distância segura."},
+ {id:"G13",c:"c02",w:"BEC",d:"Poco X4 Pro",what:"Montagem de mastro e teste rádio",how:"Antena subindo (câmera baixa, de baixo para cima) e operadores testando comunicação entre turmas."},
+ {id:"G14",c:"c02",w:"ROH",d:"Galaxy A14",what:"Conferência do material",how:"Lista de verificação sendo ticada, baterias nos carregadores, cabos enrolados. Planos de detalhe, com boa luz."},
+ {id:"G15",c:"c02",w:"FOG",d:"iPhone 17 Pro",what:"Inserts de aprestamento em câmera lenta",how:"Bateria encaixando no rádio, conector clicando, LED verde. 4K 120 fps, macro se precisar."},
+ {id:"G16",c:"c03",w:"TIA",d:"DJI Neo",what:"Vista vertical do comboio chegando à área",how:"Câmera a −90°, drone parado, comboio cruzando o quadro. É o plano que recebe o fade do Earth."},
+ {id:"G17",c:"c04",w:"BEC",d:"Poco X4 Pro",what:"Subida do morro com o material",how:"Um plano atrás dos militares na trilha (ponto de vista) e outro de frente, com eles vindo para a câmera."},
+ {id:"G18",c:"c04",w:"ROH",d:"Galaxy A14",what:"Time-lapse da montagem do Posto Rádio",how:"Celular fixo (tripé ou apoiado num tronco) por 20 a 30 min no modo Hyperlapse ou time-lapse: camuflagem, antenas, cabos."},
+ {id:"G19",c:"c04",w:"TIA",d:"DJI Neo",what:"Drone revelando o morro: o posto some na mata",how:"Decolar da clareira e subir na vertical até mostrar o topo do morro e o vale. Depois um Circle alto em volta do morro."},
+ {id:"G20",c:"c04",w:"BEC",d:"Poco X4 Pro",what:"Operação do Posto Rádio",how:"Operador falando no monofone (plano médio e close na mão/boca), outro anotando no registro de mensagens."},
+ {id:"G21",c:"c04",w:"ROH",d:"Galaxy A14",what:"Detalhes do Posto Rádio",how:"Antena entre as árvores, painel do rádio (sem mostrar frequência), carta com acetato, rede de camuflagem por dentro."},
+ {id:"G22",c:"c04",w:"ROH",d:"Galaxy A14",what:"Áudio limpo de fonia (só som)",how:"Grave 2 a 3 min de tráfego rádio com o celular perto do alto-falante, sem conversa ao fundo. Inclua: “Todas as estações…”, “QSL”, “câmbio, desligo”."},
+ {id:"G23",c:"c05",w:"FOG",d:"iPhone 17 Pro",what:"Time-lapse da montagem do COp",how:"iPhone fixo em tripé, modo Time-lapse, ângulo alto que pegue a tenda subindo, mesas, TV e cabos."},
+ {id:"G24",c:"c05",w:"TIA",d:"DJI Neo",what:"COp pronto visto de cima",how:"QuickShot Circle ou Dronie sobre a estrutura montada."},
+ {id:"G25",c:"c05",w:"TIA",d:"S24 Ultra",what:"Travelling lento por dentro do COp pronto",how:"4K 30 fps, andando devagar entre as mesas até o painel de situação. Pode ser antes de o pessoal chegar."},
+ {id:"G26",c:"c05",w:"FOG",d:"iPhone 17 Pro",what:"COp operando",how:"Briefing, oficial apontando na carta, militar no telefone e no rádio. Modo Cinema para fundo desfocado nos closes."},
+ {id:"G27",c:"c05",w:"TIA",d:"S24 Ultra",what:"CCom operando",how:"Centro de mensagens, LEDs do switch/rack, operadores digitando, mensageiro saindo com mensagem. Telas fora de foco."},
+ {id:"G28",c:"c05",w:"FOG",d:"iPhone 17 Pro",what:"Plano-sequência CCom → COp",how:"Siga o mensageiro (ou a mensagem) saindo do CCom e sendo entregue no COp, sem cortar. Ative a estabilização “Modo Ação”."},
+ {id:"G29",c:"c06",w:"TIA",d:"DJI Neo",what:"Chegada de drone ao Apoio Infantaria",how:"Começar alto e longe, avançar e descer até a estrutura (o inverso do Rocket), 10 a 15 s, sem cortes."},
+ {id:"G30",c:"c06",w:"BEC",d:"Poco X4 Pro",what:"Apoio Infantaria operando",how:"Plano aberto da estrutura, close do operador no rádio, computador, resposta “QSL Posto Rádio”. 4 planos curtos."},
+ {id:"G31",c:"c07",w:"TIA",d:"DJI Neo",what:"Chegada de drone ao Apoio Cavalaria",how:"Mesmo movimento do G29, mantenha altura e velocidade parecidas."},
+ {id:"G32",c:"c07",w:"ROH",d:"Galaxy A14",what:"Apoio Cavalaria operando",how:"Mesmo padrão do G30 + um plano de identidade (viatura ou flâmula da Cavalaria)."},
+ {id:"G33",c:"c08",w:"TIA",d:"DJI Neo",what:"Chegada de drone ao Apoio Engenharia",how:"Mesmo movimento do G29."},
+ {id:"G34",c:"c08",w:"BEC",d:"Poco X4 Pro",what:"Apoio Engenharia operando",how:"Mesmo padrão do G30 + plano de identidade da Engenharia."},
+ {id:"G35",c:"c09",w:"TIA",d:"DJI Neo",what:"Chegada de drone ao Apoio Artilharia",how:"Mesmo movimento do G29."},
+ {id:"G36",c:"c09",w:"ROH",d:"Galaxy A14",what:"Apoio Artilharia operando",how:"Mesmo padrão do G30 + plano de identidade da Artilharia."},
+ {id:"G37",c:"c10",w:"TIA",d:"DJI Neo",what:"Chegada de drone ao Apoio BLB",how:"Mesmo movimento do G29."},
+ {id:"G38",c:"c10",w:"FOG",d:"iPhone 17 Pro",what:"Apoio BLB operando",how:"Mesmo padrão do G30 + movimento logístico ao fundo (viaturas, suprimento)."},
+ {id:"G39",c:"c11",w:"TIA",d:"DJI Neo",what:"PCT deslocando com a tropa",how:"Drone alto e de lado, acompanhando o deslocamento a distância segura. Nunca sobre a tropa."},
+ {id:"G40",c:"c11",w:"BEC",d:"Poco X4 Pro",what:"Operador do PCT com o comandante",how:"Operador passando informação, comandante na carta, antena da viatura em destaque."},
+ {id:"G41",c:"c11",w:"ROH",d:"Galaxy A14",what:"Ação da Infantaria com o rádio-operador",how:"Tropa progredindo e o rádio-operador junto ao comandante. Planos curtos, câmera baixa, siga o movimento."},
+ {id:"G42",c:"c11",w:"TIA",d:"S24 Ultra",what:"Ação da Cavalaria (opcional)",how:"Viaturas em movimento com o PCT acompanhando. Use o zoom 3x/5x do S24 para filmar de longe com segurança."},
+ {id:"G43",c:"c12",w:"FOG",d:"iPhone 17 Pro",what:"Cadetes cautelando material nas viaturas das OMs",how:"Militar da OM entregando o rádio de dentro da viatura, cadete assinando. Plano aberto + close das mãos."},
+ {id:"G44",c:"c12",w:"ROH",d:"Galaxy A14",what:"Viaturas das OMs",how:"Chegada ou viaturas estacionadas, câmera baixa, com a identificação da OM na viatura visível."},
+ {id:"G45",c:"c12",w:"TIA",d:"DJI Neo",what:"Fila de viaturas das OMs vista de cima",how:"Voo lateral lento ao longo da fila, 4K."},
+ {id:"G47",c:"c14",w:"BEC",d:"Poco X4 Pro",what:"Grupo reunido (plano de chão)",how:"Todos reunidos na frente da estrutura principal. Plano aberto parado, 10 s."},
+ {id:"G48",c:"c14",w:"TIA",d:"DJI Neo",what:"Dronie final do grupo",how:"QuickShot Dronie partindo do grupo e afastando até mostrar a mata e o morro."}
+];
+
+const EARTH=[
+ ["E01","Brasil → região → área da manobra, com todos os alfinetes","c03"],
+ ["E02","Carta topográfica: aproximação até o morro do Posto Rádio","c03"],
+ ["E03","Teia de enlaces: linhas amarelas do Posto Rádio a cada apoio e ao COp","c04"],
+ ["E04","Linhas ciano CCom ↔ COp e COp ↔ apoios","c05"],
+ ["E05","Voo Posto Rádio → Apoio Infantaria","c06"],
+ ["E06","Voo Posto Rádio → Apoio Cavalaria","c07"],
+ ["E07","Voo Posto Rádio → Apoio Engenharia","c08"],
+ ["E08","Voo Posto Rádio → Apoio Artilharia","c09"],
+ ["E09","Voo Posto Rádio → Apoio BLB","c10"],
+ ["E10","Afastamento final com todos os enlaces acesos","c10"],
+ ["E11","Carta/Earth da ação: seta da manobra + PCT + enlace PCT ↔ Posto Rádio ↔ COp","c11"]
+];
+
+const MUSIC=[
+ ["Abertura","Thunderstruck — AC/DC","Primo Victoria — Sabaton","A intro de guitarra cresce sozinha até a bateria: perfeito para o título entrar no golpe."],
+ ["Preparação e aprestamento","Back in Black — AC/DC","Seven Nation Army — The White Stripes","Andamento médio e riff marcado, bom para montagem de trabalho com cortes no tempo."],
+ ["Área de operações + Pel Com + Pel C²","Enter Sandman — Metallica","Paint It Black — The Rolling Stones (só no Earth)","Começa contida e explode no riff: a parte tensa no Earth e na mata, o riff na operação do COp."],
+ ["Apoios (5 capítulos)","Indestructible — Disturbed","Kickstart My Heart — Mötley Crüe","Pulso constante e tema militar; o mesmo ritmo nos 5 apoios cria o padrão que o público reconhece."],
+ ["PCT nas ações","Ghost Division — Sabaton","The Last Stand — Sabaton","Metal rápido com temática militar: o ponto alto de ação do vídeo."],
+ ["OMs, distintivos e encerramento","Victory — Two Steps From Hell","The Final Countdown — Europe","Rock orquestral épico, ideal para homenagem e créditos; Final Countdown, se quiser um tom mais leve."]
+];
+
+const TRANS=[
+ ["Estática de rádio","Assinatura do vídeo. 6 a 10 frames de ruído/glitch com som de chiado e clique de PTT. Use entre os blocos grandes."],
+ ["L-cut / J-cut com fonia","A voz do rádio do próximo local começa antes da imagem mudar (ou continua depois). Liga os capítulos pela comunicação, que é o tema."],
+ ["Earth → drone vertical","Último quadro do Earth de cima, fade de 12 frames para o drone a −90° no mesmo ponto. É o que faz o “mergulho” em cada apoio."],
+ ["Máscara com objeto","Viatura passando rente à câmera ou tronco de árvore no primeiro plano esconde o corte. Na saída do comboio e na entrada da mata."],
+ ["Corte casado (match cut)","Mesmo gesto em dois lugares: caixa fechando no quartel → caixa abrindo no morro; antena subindo → antena já montada."],
+ ["Whip pan","Giro rápido da câmera no fim de um plano e no início do outro, com desfoque de movimento. Na sequência de cautelas."],
+ ["Speed ramp","Acelera o plano e volta à velocidade normal no tempo forte. Na saída do comboio e na passagem PCT → OMs."],
+ ["Flash branco","2 a 4 frames de branco no tempo da música. Entre os distintivos das OMs e no título."],
+ ["Tela dividida","CCom e COp lado a lado, para mostrar que acontecem ao mesmo tempo e um alimenta o outro."]
+];
+
+const GEN_EDIT=[
+ ["e-g01","Criar o projeto em 1920×1080, 30 fps (CapCut desktop ou DaVinci Resolve, ambos gratuitos)"],
+ ["e-g02","Importar e organizar os arquivos em pastas por capítulo, com o padrão de nome C04_G20_BEC_01"],
+ ["e-g03","Criar o modelo do rótulo do canto inferior esquerdo (faixa escura, borda âmbar, número + título) e salvar como predefinição"],
+ ["e-g04","Gravar todos os voos do Earth (E01 a E11) e a carta topográfica"],
+ ["e-g05","Criar as animações de linha de enlace com a legenda de cores (rádio, dados, fio, satélite)"],
+ ["e-g06","Juntar os símbolos das OMs em PNG com fundo transparente, em boa resolução"],
+ ["e-g07","Separar os efeitos sonoros: estática, PTT, bipes, motor de viatura"],
+ ["e-g08","Definir as músicas finais e verificar se o destino do vídeo permite músicas comerciais"],
+ ["e-g09","Corte bruto do vídeo inteiro (montagem só com imagem e música, sem efeitos)"],
+ ["e-g10","Uniformizar as cores entre os 5 aparelhos (correção primeiro, depois um look leve e igual para todos)"],
+ ["e-g11","Mixagem: música baixando sob a fonia, volume final em torno de −14 LUFS para web"],
+ ["e-g12","Revisão de OPSEC: desfocar telas, frequências, indicativos e documentos legíveis"],
+ ["e-g13","Exportar em H.264 1080p 30 fps, cerca de 16 Mbps, e assistir inteiro no celular e na TV"],
+ ["e-g14","Apresentar ao oficial responsável e ajustar o que for pedido antes de divulgar"]
+];
+
+/* ---------- state: shared via db, fallback local ---------- */
+const LS="me2026-checks", LSO="me2026-oms";
+let checks={}, oms=[], db=null;
+function loadLocal(){try{checks=JSON.parse(localStorage.getItem(LS)||"{}")||{};oms=JSON.parse(localStorage.getItem(LSO)||"[]")||[]}catch(e){checks={};oms=[]}}
+function saveLocal(){try{localStorage.setItem(LS,JSON.stringify(checks));localStorage.setItem(LSO,JSON.stringify(oms))}catch(e){}}
+loadLocal();
+function setSync(on,txt){const s=document.getElementById("sync");s.classList.toggle("on",on);document.getElementById("syncTxt").textContent=txt}
+setSync(false,"Salvo neste navegador");
+
+async function toggleCheck(id,val){
+  checks[id]=val; renderLists();
+  if(db){try{await db.collection("checks").doc(id).set({done:val,at:Date.now()})}catch(e){setSync(false,"Sem permissão para salvar na equipe");saveLocal()}}
+  else saveLocal();
+}
+async function addOM(name){
+  if(db){try{await db.collection("oms").add({name,order:Date.now()})}catch(e){setSync(false,"Sem permissão para salvar na equipe")}}
+  else{oms.push({id:"o"+Date.now(),name,order:Date.now()});saveLocal();renderAll()}
+}
+async function delOM(id){
+  if(db){try{await db.collection("oms").doc(id).delete()}catch(e){}}
+  else{oms=oms.filter(o=>o.id!==id);saveLocal();renderAll()}
+}
+
+/* ---------- render ---------- */
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt=s=>Math.floor(s/60)+":"+String(s%60).padStart(2,"0");
+const chTitle=c=>c.label||c.title;
+
+function renderTimeline(){
+  const total=CH.reduce((a,c)=>a+c.dur,0);
+  $("#tlBar").innerHTML=CH.map(c=>`<a class="tl-seg" href="#roteiro" data-jump="${c.id}" style="flex:${c.dur};background:var(${c.k})" title="${esc(c.n+' · '+chTitle(c)+' — '+fmt(c.start)+' a '+fmt(c.start+c.dur))}"><b>${c.n}</b></a>`).join("");
+  let marks="";for(let t=0;t<=total;t+=60)marks+=`<span>${fmt(t)}</span>`;
+  $("#tlScale").innerHTML=marks+`<span>${fmt(total)}</span>`;
+}
+function whoTags(cid){
+  const ws=[...new Set(SHOTS.filter(s=>s.c===cid).map(s=>s.w))];
+  if(cid==="c13")ws.push("FOG");
+  return ws.map(w=>`<span class="who p-${w}">${PEOPLE[w].name}</span>`).join(" ");
+}
+function renderChapters(){
+  $("#chapters").innerHTML=CH.map(c=>{
+    const lbl=c.label?`<span class="label-preview"><em>${c.n}</em>${esc(c.label)}</span>`:`<span class="tag">sem rótulo no canto</span>`;
+    let extra="";
+    if(c.id==="c13"){extra=`<div class="kv"><dt>OMs cadastradas</dt><dd>${oms.length?oms.map(o=>esc(o.name)).join(" · "):'<span class="empty">Nenhuma ainda. Cadastre na aba Equipe e ajustes.</span>'}</dd></div>`}
+    return `<article class="chap" id="ch-${c.id}" style="--k:var(${c.k})">
+      <div class="chap-head"><h3>${c.n} · ${esc(chTitle(c))}</h3><span class="chap-time">${fmt(c.start)} → ${fmt(c.start+c.dur)} · ${c.dur}s</span>${lbl}</div>
+      <p class="obj">${esc(c.obj)}</p>
+      <ol class="seq">${c.seq.map(x=>`<li>${esc(x)}</li>`).join("")}</ol>
+      <dl class="grid2" style="margin:0">
+        <div class="kv"><dt>Letreiros</dt><dd>${esc(c.text)}</dd></div>
+        <div class="kv"><dt>Música</dt><dd>${esc(c.music)}</dd></div>
+        <div class="kv"><dt>Entrada</dt><dd>${esc(c.tin)}</dd></div>
+        <div class="kv"><dt>Saída</dt><dd>${esc(c.tout)}</dd></div>
+        <div class="kv"><dt>Quem grava</dt><dd>${whoTags(c.id)||"—"}</dd></div>
+        ${extra}
+      </dl>
+    </article>`}).join("");
+}
+
+let whoSel="ALL", hideDoneG=false, hideDoneE=false;
+function allShots(){
+  const list=SHOTS.slice();
+  const idx=list.findIndex(s=>s.c==="c14");
+  const patch=oms.length?oms.map((o,i)=>({id:"G46."+(i+1),key:"patch-"+o.id,c:"c13",w:"FOG",d:"iPhone 17 Pro",what:"Distintivo no braço — "+o.name,how:"Close no braço, aproximação lenta, fundo desfocado (Modo Cinema ou teleobjetiva 4x/5x), 4K 60 fps. Mesmo enquadramento e mesma luz em todos."}))
+    :[{id:"G46",c:"c13",w:"FOG",d:"iPhone 17 Pro",what:"Distintivos de OM no braço (um clipe por OM)",how:"Cadastre as OMs na aba Equipe e ajustes para gerar um item por OM."}];
+  list.splice(idx,0,...patch);
+  return list;
+}
+function renderShots(){
+  const chips=[["ALL","Todos"],...["ROH","BEC","TIA","FOG"].map(k=>[k,PEOPLE[k].name])];
+  $("#whoFilter").innerHTML=chips.map(([k,n])=>`<button class="chip" type="button" data-who="${k}" aria-pressed="${whoSel===k}">${n}</button>`).join("")+`<label class="toggle"><input type="checkbox" id="hideDoneG" ${hideDoneG?"checked":""}> Ocultar gravados</label>`;
+  const shots=allShots().filter(s=>whoSel==="ALL"||s.w===whoSel);
+  const done=shots.filter(s=>checks[s.key||s.id]).length;
+  $("#gProgTxt").textContent=`${done}/${shots.length} planos`;
+  $("#gProgBar").style.width=(shots.length?done/shots.length*100:0)+"%";
+  let html="";
+  CH.forEach(c=>{
+    const g=shots.filter(s=>s.c===c.id); if(!g.length)return;
+    const gd=g.filter(s=>checks[s.key||s.id]).length;
+    const vis=g.filter(s=>!(hideDoneG&&checks[s.key||s.id]));
+    html+=`<div class="group" style="--k:var(${c.k})"><div class="group-h"><h3>${c.n} · ${esc(chTitle(c))}</h3><span class="cnt">${gd}/${g.length}</span></div>`;
+    html+=vis.map(s=>{const key=s.key||s.id,on=!!checks[key];return `<label class="item ${on?"done":""}"><input type="checkbox" data-key="${esc(key)}" ${on?"checked":""}><div class="body"><div class="row1"><span class="id">${s.id}</span><span class="what">${esc(s.what)}</span><span class="who p-${s.w}">${PEOPLE[s.w].name}</span><span class="tag">${esc(s.d)}</span></div><div class="how">${esc(s.how)}</div></div></label>`}).join("");
+    if(!vis.length)html+=`<p class="empty" style="padding:8px 4px">Tudo gravado neste capítulo.</p>`;
+    html+=`</div>`;
+  });
+  $("#shotList").innerHTML=html;
+}
+function chapterEditItems(c){
+  const it=[];
+  const sh=allShots().filter(s=>s.c===c.id).map(s=>s.id);
+  const ea=EARTH.filter(e=>e[2]===c.id).map(e=>e[0]);
+  if(sh.length)it.push(["sel","Selecionar os melhores takes: "+sh.join(", ")]);
+  if(ea.length)it.push(["earth","Inserir Earth/carta e animar os enlaces: "+ea.join(", ")]);
+  if(c.label)it.push(["lbl",`Aplicar o rótulo no canto inferior esquerdo: “${c.n} · ${c.label.toUpperCase()}”`]);
+  else if(c.id==="c13")it.push(["lbl","Esconder o rótulo do canto durante os distintivos"]);
+  it.push(["txt","Letreiros: "+c.text]);
+  it.push(["mus","Cortes sincronizados com a música ("+c.music+")"]);
+  it.push(["tr","Transições: entrada “"+c.tin+"” · saída “"+c.tout+"”"]);
+  if(c.id==="c05")it.push(["split","Montar a tela dividida CCom | COp"]);
+  if(c.id==="c13"){(oms.length?oms:[]).forEach(o=>it.push(["om-"+o.id,"Clipe + letreiro com nome e símbolo colorido: "+o.name]));if(!oms.length)it.push(["om-x","Um clipe + letreiro (nome e símbolo) por OM — cadastre as OMs"])}
+  if(c.id==="c14")it.push(["cred","Créditos: gravação (Tiago, Rohweder, Beckmann, Fogazzi), edição, música"]);
+  it.push(["dur",`Conferir a duração (alvo ${c.dur}s) e o áudio do capítulo`]);
+  return it.map(([k,t])=>["e-"+c.id+"-"+k,t]);
+}
+function itemHTML(key,text){const on=!!checks[key];return `<label class="item ${on?"done":""}"><input type="checkbox" data-key="${esc(key)}" ${on?"checked":""}><div class="body"><span class="what">${esc(text)}</span></div></label>`}
+function renderEdit(){
+  const groups=[{t:"Projeto geral",k:"--c-ops",items:GEN_EDIT}].concat(CH.map(c=>({t:c.n+" · "+chTitle(c),k:c.k,items:chapterEditItems(c),time:fmt(c.start)})));
+  let total=0,done=0,html="";
+  groups.forEach(g=>{
+    const gd=g.items.filter(i=>checks[i[0]]).length; total+=g.items.length; done+=gd;
+    const vis=g.items.filter(i=>!(hideDoneE&&checks[i[0]]));
+    html+=`<div class="group" style="--k:var(${g.k})"><div class="group-h"><h3>${esc(g.t)}</h3>${g.time?`<span class="tag">${g.time}</span>`:""}<span class="cnt">${gd===g.items.length?"pronto · ":""}${gd}/${g.items.length}</span></div>${vis.map(i=>itemHTML(i[0],i[1])).join("")}${!vis.length?'<p class="empty" style="padding:8px 4px">Capítulo concluído.</p>':""}</div>`;
+  });
+  $("#editList").innerHTML=html;
+  $("#eProgTxt").textContent=`${done}/${total} tarefas`;
+  $("#eProgBar").style.width=(total?done/total*100:0)+"%";
+}
+function renderStatic(){
+  $("#musicRows").innerHTML=MUSIC.map(r=>`<tr><td><strong>${esc(r[0])}</strong></td><td>${esc(r[1])}</td><td>${esc(r[2])}</td><td>${esc(r[3])}</td></tr>`).join("");
+  $("#transCards").innerHTML=TRANS.map(t=>`<div class="card"><h4>${esc(t[0])}</h4><p>${esc(t[1])}</p></div>`).join("");
+  $("#earthRows").innerHTML=EARTH.map(e=>{const c=CH.find(x=>x.id===e[2]);return `<tr><td class="mono">${e[0]}</td><td>${esc(e[1])}</td><td>${c.n} · ${esc(chTitle(c))}</td></tr>`}).join("");
+  const roles={TIA:"Todo o drone (abertura, comboio, morro, COp, chegadas aos 5 apoios, PCT, viaturas, dronie final) + interiores do COp/CCom com o S24 Ultra (4K 30 fps; zoom 3x/5x para a ação de longe).",
+    ROH:"Foco nas partes iniciais: subtenência, material rádio, embarque, cabine do comboio, aprestamento, time-lapse e detalhes do Posto Rádio, áudio de fonia. 1080p 30 fps; busque sempre boa luz.",
+    BEC:"Foco nas partes iniciais: prateleiras, configuração, comboio, mastro, subida do morro, operação do Posto Rádio, Apoios Inf e Eng, PCT. 1080p 30 fps com estabilização ligada.",
+    FOG:"Planos “premium”: câmera lenta 4K 120 fps nos detalhes, time-lapse do COp, operação do COp, plano-sequência CCom → COp, Apoio BLB, cautela nas viaturas das OMs e todos os distintivos no braço."};
+  $("#teamCards").innerHTML=["ROH","BEC","TIA","FOG"].map(k=>{const n=SHOTS.filter(s=>s.w===k).length+(k==="FOG"?Math.max(1,oms.length):0);return `<div class="card"><h4><span class="who p-${k}">${PEOPLE[k].name}</span></h4><p class="mono" style="font-size:.78rem;color:var(--muted)">${esc(PEOPLE[k].dev)} · ${n} planos</p><p>${esc(roles[k])}</p></div>`}).join("")+
+  `<div class="card"><h4>Ajuste comum</h4><p>Horizontal, 1080p 30 fps em todos. S24 Ultra e iPhone podem gravar em 4K 30 (sobra para recortar). Desligue o HDR do iPhone e do S24 para as cores casarem com os outros. Limpe as lentes antes de cada plano.</p></div>`;
+}
+function renderOMs(){
+  $("#omList").innerHTML=oms.length?oms.map(o=>`<span class="om-pill">${esc(o.name)}<button type="button" data-del="${esc(o.id)}" aria-label="Remover ${esc(o.name)}">remover</button></span>`).join(""):'<span class="empty">Nenhuma OM cadastrada ainda.</span>';
+}
+function renderLists(){renderShots();renderEdit()}
+function renderAll(){renderChapters();renderLists();renderStatic();renderOMs()}
+
+/* ---------- events ---------- */
+document.addEventListener("change",e=>{
+  const t=e.target;
+  if(t.matches("input[data-key]"))toggleCheck(t.dataset.key,t.checked);
+  else if(t.id==="hideDoneG"){hideDoneG=t.checked;renderShots()}
+  else if(t.id==="hideDoneEd"){hideDoneE=t.checked;renderEdit()}
+});
+document.addEventListener("click",e=>{
+  const w=e.target.closest("[data-who]");if(w){whoSel=w.dataset.who;try{localStorage.setItem("me2026-who",whoSel)}catch(_){ }renderShots();return}
+  const j=e.target.closest("[data-jump]");if(j){e.preventDefault();show("roteiro");const el=document.getElementById("ch-"+j.dataset.jump);if(el)el.scrollIntoView({behavior:"smooth",block:"start"});return}
+  const d=e.target.closest("[data-del]");
+  if(d){if(d.classList.contains("arm")){delOM(d.dataset.del)}else{d.classList.add("arm");d.textContent="confirmar?";setTimeout(()=>{if(d.isConnected){d.classList.remove("arm");d.textContent="remover"}},3000)}}
+});
+$("#omForm").addEventListener("submit",e=>{e.preventDefault();const v=$("#omName").value.trim();if(!v)return;$("#omName").value="";addOM(v)});
+
+const VIEWS=["roteiro","gravacao","edicao","trilha","mapas","equipe"];
+function show(v){if(!VIEWS.includes(v))v="roteiro";document.querySelectorAll("[data-view]").forEach(s=>s.hidden=s.id!=="v-"+v);document.querySelectorAll("#tabs a").forEach(a=>a.setAttribute("aria-current",a.dataset.tab===v));}
+window.addEventListener("hashchange",()=>{show(location.hash.slice(1));window.scrollTo(0,0)});
+try{const w=localStorage.getItem("me2026-who");if(w)whoSel=w}catch(e){}
+renderTimeline();renderAll();show(location.hash.slice(1));
+
+/* ---------- shared store ---------- */
+(async()=>{
+  try{
+    if(!window.claude||!window.claude.use)return;
+    const d=await window.claude.use("db"); if(!d)return;
+    db=d; setSync(true,"Compartilhado com a equipe");
+    db.collection("checks").onSnapshot(snap=>{const n={};snap.docs.forEach(doc=>{const x=doc.data();if(x&&x.done)n[doc.id]=true});checks=n;renderLists()},()=>{setSync(false,"Sincronização interrompida")});
+    db.collection("oms").orderBy("order").onSnapshot(snap=>{oms=snap.docs.map(doc=>({id:doc.id,...doc.data()}));renderAll()},()=>{});
+  }catch(e){}
+})();
+</script>
+<!-- Importa os módulos necessários do Firebase (SDK v9+) -->
+<script type="module">
+  import { initializeApp } from "https://gstatic.com";
+  import { getDatabase, ref, set, onValue } from "https://gstatic.com";
+
+  // 1. Cole aqui as credenciais do SEU projeto Firebase:
+  const firebaseConfig = {
+  apiKey: "AIzaSyDHtCYRpjwZOCDH_95OXZMNdf7KalfxnmI",
+  authDomain: "checklistcomsoc.firebaseapp.com",
+  projectId: "checklistcomsoc",
+  storageBucket: "checklistcomsoc.firebasestorage.app",
+  messagingSenderId: "1022530137167",
+  appId: "1:1022530137167:web:59e98747309b1bb5aa0e3a"
+};
+
+  // Inicializa o Firebase
+  const app = initializeApp(firebaseConfig);
+  const db = getDatabase(app);
+  const dbRef = ref(db, "checklist");
+
+  // 2. Escuta mudanças no banco de dados e atualiza a tela em tempo real
+  onValue(dbRef, (snapshot) => {
+    const dados = snapshot.val() || {};
+    
+    // Procura todos os checkboxes da página
+    document.querySelectorAll('input[type="checkbox"]').forEach((checkbox) => {
+      if (checkbox.id) {
+        // Se o ID existir no banco como "true", marca a caixa. Se não, desmarca.
+        checkbox.checked = !!dados[checkbox.id];
+      }
+    });
+  });
+
+  // 3. Escuta os cliques do usuário para salvar o status no Firebase
+  document.addEventListener("change", (event) => {
+    if (event.target.type === "checkbox" && event.target.id) {
+      const checkboxId = event.target.id;
+      const estaMarcado = event.target.checked;
+
+      // Salva diretamente na rota do ID específico dentro do Firebase
+      set(ref(db, `checklist/${checkboxId}`), estaMarcado);
+    }
+  });
+</script>
+
+</body></html>
